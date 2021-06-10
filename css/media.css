@@ -522,6 +522,9 @@ body {
 .billbord .title-big {
     padding-bottom: 53px;
 }
+.billbord {
+    padding-bottom: 68px;
+}
 }
 
 /* Custom, iPhone Retina */
