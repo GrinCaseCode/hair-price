@@ -1376,7 +1376,7 @@ border-radius: 50%;
 }
 .owner-block .btn-main {
 	width: 97%;
-	margin-top: 15px;
+	margin-top: 15px; 
 	padding: 0;
 }
 .owner-block p {
@@ -1387,4 +1387,4 @@ border-radius: 50%;
 }
 .article_item .articles-wrap {
 	margin-bottom: 70px;
-} 
+}  
