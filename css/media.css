@@ -16,14 +16,22 @@
     	padding-right: 20px;
     }
     .header__left .language-block {
-    margin-left: 30px;
+    margin-left: 30px; 
 }
 .billbord .btn-main {
     margin-top: 20px;
 }
 .slider-gallery__item {
     height: 400px;
+}
+.block-subscribe {
+    padding-left: 15px;
+    padding-right: 15px;
 } 
+.block-subscribe .item-form input {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -171,6 +179,17 @@
     }
     .article .block-form {
         margin-bottom: 30px;
+    }
+    .item-form .col-lg-10 {
+        padding-left: 15px;
+    }
+    .item-form p {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .block-subscribe {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
@@ -348,6 +367,27 @@ h3,
     .breaducmbs {
         padding: 15px 0;
     }
+    .submit-listing {
+        padding-bottom: 40px;
+    }
+   .article_item .item-property {
+    margin-right: 8px;
+}
+.article__price {
+    font-size: 20px;
+    }
+    .list-social a {
+        margin-top: 15px;
+    }
+    .info-buyers .list-social {
+        margin-bottom: 20px;
+    }
+    .owner-block { 
+    margin-bottom: 30px; 
+}
+.article_item .articles-wrap {
+    margin-bottom: 30px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -384,8 +424,12 @@ h3,
 .slick-next {
 	right: -45px;
 }
+.slider-feature-page,
 .slider-feature {
 	padding-bottom: 30px;
+}
+.slider-feature-page {
+    margin-bottom: 30px;
 }
 .item-catalog {
 	margin-top: 25px;
@@ -527,6 +571,14 @@ h3,
 }
 .billbord {
     padding-bottom: 68px;
+}
+.submit-listing {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    }
+    .block-form__title {
+    font-size: 16px;
+    line-height: 27px;
 }
 }
 

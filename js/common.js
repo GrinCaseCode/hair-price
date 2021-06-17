@@ -88,6 +88,37 @@ values: ["2", "4", "6", "8", "10", "12", "14", "16", "18", "20", "25", "30", '35
 		]
 	});
 
+	$('.slider-feature-page').slick({
+		arrows: true,
+		dots: false,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		touchThreshold: 1000,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-angle-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-angle-right"></i><div/>',
+		infinite: true,
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow:3,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow:2,
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow:1,
+			}
+		}
+		]
+	});
+
 	$('.slider-reviews').slick({
 		arrows: true,
 		dots: false,
